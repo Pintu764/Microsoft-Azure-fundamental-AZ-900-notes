@@ -36,7 +36,7 @@ Use-cases:
 3. PaaS offerings also provide scalability, flexibility, and cost-effectiveness by abstracting the underlying infrastructure complexities.
 
 
-   ![important image]()
+   ![important image](https://github.com/Pintu764/Microsoft-Azure-fundamental-AZ-900-notes/assets/159055209/26d365d3-5bc9-4a2e-a64b-9a4003778683)
 
 ### Describe software as a service (SaaS)
 Renting a fully developed application.
