@@ -45,3 +45,6 @@ Examples:
 - Email and messaging
 - Finance and expense tracking
 - Business productivity apps
+
+1. Software as a Service (SaaS) is a cloud computing model where software applications are hosted and provided to users over the internet on a subscription basis. Users can access these applications through web browsers without needing to install or manage any software locally.
+2. SaaS eliminates the need for upfront software purchases, updates, and maintenance, offering scalability, flexibility, and cost-effectiveness for businesses and individuals.
