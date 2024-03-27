@@ -19,6 +19,8 @@ Use-cases:
 * Infrastructure as a Service (IaaS) is a cloud computing service model that provides virtualized computing resources over the internet. 
 * Users can rent virtual servers, storage, networking, and other computing resources on a pay-as-you-go basis. With IaaS, organizations can scale their infrastructure up or down based on demand, reducing the need for physical hardware investment and maintenance. 
 * This model offers flexibility, cost-effectiveness, and rapid deployment of IT resources compared to traditional on-premises infrastructure.
+
+[important points](https://github.com/Pintu764/Microsoft-Azure-fundamental-AZ-900-notes/assets/159055209/02f09c47-0ffd-49be-8ccb-4b210158f179)
   
 ### Describe platform as a service (PaaS)
 Cloud responsible for:
@@ -28,6 +30,13 @@ Cloud responsible for:
 Use-cases:
 - Create apps using built-in software components, reduce amount of code to write
 - Built-in analytics and BI
+
+1. Platform as a Service (PaaS) is a cloud computing model that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the underlying infrastructure. 
+2. PaaS offerings typically include development tools, runtime environments, databases, and other services required to support the complete lifecycle of application development. This model enables developers to focus on writing code and deploying applications, accelerating the development process and reducing time-to-market.
+3. PaaS offerings also provide scalability, flexibility, and cost-effectiveness by abstracting the underlying infrastructure complexities.
+
+
+   [important image]()
 
 ### Describe software as a service (SaaS)
 Renting a fully developed application.
