@@ -20,7 +20,7 @@ Use-cases:
 * Users can rent virtual servers, storage, networking, and other computing resources on a pay-as-you-go basis. With IaaS, organizations can scale their infrastructure up or down based on demand, reducing the need for physical hardware investment and maintenance. 
 * This model offers flexibility, cost-effectiveness, and rapid deployment of IT resources compared to traditional on-premises infrastructure.
 
-[important points](https://github.com/Pintu764/Microsoft-Azure-fundamental-AZ-900-notes/assets/159055209/02f09c47-0ffd-49be-8ccb-4b210158f179)
+![important points](https://github.com/Pintu764/Microsoft-Azure-fundamental-AZ-900-notes/assets/159055209/02f09c47-0ffd-49be-8ccb-4b210158f179)
   
 ### Describe platform as a service (PaaS)
 Cloud responsible for:
@@ -36,7 +36,7 @@ Use-cases:
 3. PaaS offerings also provide scalability, flexibility, and cost-effectiveness by abstracting the underlying infrastructure complexities.
 
 
-   [important image]()
+   ![important image]()
 
 ### Describe software as a service (SaaS)
 Renting a fully developed application.
