@@ -56,6 +56,14 @@ Cloud models "define the deployment type of cloud resources." They're the "types
 3. hybrid: A cloud utilizing both private and public clouds.
    * Start with private cloud, then surges in demand can be handled by public cloud (because they're quicker to set up).
 
+| Public       | Private | Hybrid |
+|:------------ |:--------------:| -------------:|
+| In a public cloud, resources are shared among multiple users, and customers only pay for the resources they use.| Resources are not shared with other Organizations, providing greater control and security.         | Uses both public and private cloud in an inter-connected environment.         |
+| Hosted and operated by a third-party cloud services provider, such as AWS, Azure or GCP          | Operated and maintained by a single organization. A private cloud may be hosted on-premises or in a data center.         | Providers extra layer of security, user can choose which resources to keep in private cloud and which resources to deploy in public cloud.         |
+| NO CapEx to scale up         | High CapEx        | include both        |
+| Resources can be provisioned or decommissioned on demand         | Hardware to be purchased        | Recources can be added on demand by scaling up in the public cloud environment.        |
+| think like buplic bus         | Private Bus         | public and private bus        |
+
 ### Extra: What is multicloud?
 Using multiple CSPs. You may want to use a mish-mash of services. Or you may be migrating from one CSP to another.
 
