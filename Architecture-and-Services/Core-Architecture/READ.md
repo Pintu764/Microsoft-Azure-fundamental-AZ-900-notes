@@ -7,6 +7,8 @@ resouce -> resouce group -> subscription -> management group
 
 ![](https://github.com/Pintu764/Microsoft-Azure-fundamental-AZ-900-notes/assets/159055209/a7aa7327-a782-4c8c-826b-f6d6a8aa9c29)
 
+![](https://github.com/Pintu764/Microsoft-Azure-fundamental-AZ-900-notes/assets/159055209/a91f3dc0-e253-48b3-8e0a-24e8c4cbb23f)
+
 ### Describe Azure regions, region pairs, and sovereign regions
 
 An **Azure region** is a geographical designation of several physical data centers. Some regions have **availability zones** which are themselves (smaller) geographical designations of one or more data centers. Each availability zone is able to run on its own, so that if one goes down, any data that's been replicated will still be available in another availability zone of the same region.  
