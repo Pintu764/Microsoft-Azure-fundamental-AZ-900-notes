@@ -52,6 +52,18 @@ Subscriptions can be comprised of multiple resouce groups, and any property assi
    - Is found in each countary where MS (microsoft ) has an office
    - Can ne found in every Europe and Americas countary
    - Contains ane or more date centers that are connected by a high latency network
-  8. You can use AZ to protect VM from a region failure: Yes/No 
+  8. You can use AZ to protect VM from a region failure: Yes/No
+
+
+# Knowledge Checks
+1. You can create resource group inside resource group. True/False
+2. A VM can be in multiple resource groups. True/ False
+3. A resource group can contain resources from multiple azure regions ? True/False
+4. A resource should be part of one resource group True/False
+5. You plan to deploy several Azure Virtual machines. You need to ensure that the services running on the virtual machines remain available if a single data center fails. What are two possible solutions ? Each correct answer presents a complete solution.
+    - Deploy the virtual machines to two or more availability zones.
+    - Deploy the virtual machine to two or more resource groups.
+    - Deploy the virtual machine to a scale set.
+    - Deploy the virtual machines to two or more regions. 
 
 
