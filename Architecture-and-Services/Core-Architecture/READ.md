@@ -41,7 +41,7 @@ Just like a city has multiple neighborhoods, an Azure region has multiple Availa
 - Operations like monitoring, access control, and billing can be applied to a Resource Group collectively.
 
 
-In Microsoft Azure, Availability Sets are a feature designed to improve the availability and reliability of virtual machines (VMs) by providing redundancy at the infrastructure level. Here's how Availability Sets function:
+In Microsoft Azure,***Availability*** Sets are a feature designed to improve the availability and reliability of virtual machines (VMs) by providing redundancy at the infrastructure level. Here's how Availability Sets function:
 
 Fault Domain Isolation: Azure data centers are divided into fault domains, which represent groups of hardware that share a common power source and network switch. When you deploy VMs within an Availability Set, Azure ensures that these VM instances are spread across multiple fault domains. If a hardware failure occurs within one fault domain, VM instances in other fault domains remain unaffected, thus ensuring high availability.
 
