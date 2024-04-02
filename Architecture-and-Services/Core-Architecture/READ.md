@@ -1,3 +1,10 @@
+### Describe Azure resources and resource groups
+Resources are the "fundamental" unit in Azure. A VM instance is an Azure resource. Resource groups are collections of resources. 
+
+- A resource must be part of a resource group
+- A resource can _only_ be part of a single resource group
+- Properties of the resource group get inherited by all the resources it contains
+
 ### Describe management groups
 Management groups have one or more subscriptions.
 
@@ -19,13 +26,6 @@ An **Azure region** is a geographical designation of several physical data cente
 
 **Sovereign regions** are Azure instances that are isolated from the "main" Azure instance, and are used for organizations that need to comply with certain regulations.  
 
-
-### Describe Azure resources and resource groups
-Resources are the "fundamental" unit in Azure. A VM instance is an Azure resource. Resource groups are collections of resources. 
-
-- A resource must be part of a resource group
-- A resource can _only_ be part of a single resource group
-- Properties of the resource group get inherited by all the resources it contains
   
 ### Describe subscriptions
 A way of organizing resources in terms of 
