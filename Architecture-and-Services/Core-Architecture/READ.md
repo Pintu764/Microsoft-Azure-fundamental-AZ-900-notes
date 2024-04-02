@@ -37,10 +37,10 @@ Subscriptions can be comprised of multiple resouce groups, and any property assi
 
 ### practice questions:
 1. You need to identify the type of failure for which on Azure Availability Zone can be used to protect access to Azure services. What should you idntify?
-   A. a physical server failure
-   B. on Azure region failure
-   C. a storage failure
-   D. an Azure data center failure
+    A.a physical server failure
+    B. on Azure region failure
+    C. a storage failure
+    D. an Azure data center failure
 2. Availability zones can be implemented in all Azure regions? Yes/no
 3. Only windows VM can be created in Availability zones ? Yes/No
 4. AZ are used to replicate data and application to multiple regions ? Yes/No
