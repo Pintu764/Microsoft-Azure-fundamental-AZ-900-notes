@@ -35,3 +35,21 @@ A way of organizing resources in terms of
 Subscriptions can be comprised of multiple resouce groups, and any property assigned to a subscription will also be assigned to the resource groups.
 
 
+### practice questions:
+1. You need to identify the type of failure for which on Azure Availability Zone can be used to protect access to Azure services. What should you idntify?
+   A. a physical server failure
+   B. on Azure region failure
+   C. a storage failure
+   D. an Azure data center failure
+2. Availability zones can be implemented in all Azure regions? Yes/no
+3. Only windows VM can be created in Availability zones ? Yes/No
+4. AZ are used to replicate data and application to multiple regions ? Yes/No
+5. You can use AZ to protect VM from a data center failure ? Yes/No
+6. An Azure region----
+   -Contains one or more data centers that are connected by a low latency network
+   - Is found in each countary where MS (microsoft ) has an office
+   - Can ne found in every Europe and Americas countary
+   - Contains ane or more date centers that are connected by a high latency network
+  7. You can use AZ to protect VM from a region failure: Yes/No 
+
+
