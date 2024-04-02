@@ -64,6 +64,19 @@ Subscriptions can be comprised of multiple resouce groups, and any property assi
     - Deploy the virtual machines to two or more availability zones.
     - Deploy the virtual machine to two or more resource groups.
     - Deploy the virtual machine to a scale set.
-    - Deploy the virtual machines to two or more regions. 
+    - Deploy the virtual machines to two or more regions.
+
+
+
+# knowledge checks
+1. You plan to deploy several Azure Virtual machines. You need to ensure that the services running on the virtual machines remain available if a single data center fails.
+    - You deploy the virtual machines to two or more availability zones
+    - Deploy the virtual machine to a scale set.
+    - You deploy the virtual machine to two or more subscriptions
+    - All of the above
+
+   2. If VMs were deployed in an Availability set, they would be placed on separate physical servers, so if one server fails, the other Virtual Machine will still be available. Yes/No
+   3. There are no charges of using Availability sets and VMSS but you pay for the underline resources that it provisions? Yes/No
+   
 
 
