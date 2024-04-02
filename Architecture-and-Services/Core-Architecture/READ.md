@@ -26,6 +26,30 @@ An **Azure region** is a geographical designation of several physical data cente
 
 **Sovereign regions** are Azure instances that are isolated from the "main" Azure instance, and are used for organizations that need to comply with certain regulations.  
 
+### Availability Zone
+ - Think of Availability Zones as physical locations within an Azure region.
+Just like a city has multiple neighborhoods, an Azure region has multiple Availability Zones.
+- Each Availability Zone is essentially a separate data center facility, with its own power, cooling, and networking infrastructure.
+- Azure services can be deployed across multiple Availability Zones to ensure high availability and fault tolerance.
+- If one Availability Zone fails due to unforeseen circumstances, services deployed in other zones remain unaffected, ensuring continuous availability.
+
+### Resource Group
+  - A Resource Group is more like a virtual container or a folder that holds related Azure resources such as virtual machines, databases, storage accounts, etc.
+- It acts as a logical grouping mechanism to organize and manage resources that share common lifecycle, management, and security requirements.
+- You can think of a Resource Group as a way to manage your Azure resources as a single unit, regardless of their geographical location.
+- Resources within a Resource Group can be located in different Azure regions, but they are still grouped together for management purposes.
+- Operations like monitoring, access control, and billing can be applied to a Resource Group collectively.
+
+
+In Microsoft Azure, Availability Sets are a feature designed to improve the availability and reliability of virtual machines (VMs) by providing redundancy at the infrastructure level. Here's how Availability Sets function:
+
+Fault Domain Isolation: Azure data centers are divided into fault domains, which represent groups of hardware that share a common power source and network switch. When you deploy VMs within an Availability Set, Azure ensures that these VM instances are spread across multiple fault domains. If a hardware failure occurs within one fault domain, VM instances in other fault domains remain unaffected, thus ensuring high availability.
+
+Update Domain Isolation: Azure periodically performs maintenance tasks such as updates and patches on the underlying hardware infrastructure. To minimize the impact of maintenance events on VM availability, Azure divides the VM instances within an Availability Set into update domains. During maintenance, only one update domain is taken offline at a time, ensuring that a subset of VM instances remains available while others are undergoing maintenance.
+
+Redundancy and Load Balancing: By distributing VM instances across fault domains and update domains within an Availability Set, Azure provides redundancy and load balancing at the infrastructure level. This helps ensure that your applications remain available and responsive even in the event of hardware failures or maintenance activities.
+
+High Availability: The primary function of Availability Sets is to improve the availability of your applications by providing fault tolerance and resilience at the infrastructure level. By deploying VMs within an Availability Set, you can achieve higher levels of availability and reliability for your applications, reducing the risk of downtime due to hardware failures or maintenance events.
   
 ### Describe subscriptions
 A way of organizing resources in terms of 
